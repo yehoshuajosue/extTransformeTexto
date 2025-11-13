@@ -12,7 +12,7 @@
 
 .container-pai{
     width: 200px;
-    height: 200px;
+    height: 270px;
 
     /* FlexBox */
     align-items: center;
@@ -42,15 +42,28 @@
 }
 
 .container-button{
-    width: 165px;
-    padding: 5px 0;
-
     /* FlexBox */
     display: flex;
+    flex-direction: column;
+}
+
+.two-button{
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    padding: 5px 0 0 0;
     justify-content: space-between;
 }
 
+.capital,
+.clear{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
 .btn{
+    height: 20px;
     width: 80px;
     padding: 2px;
     border-radius: 3px;

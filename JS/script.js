@@ -1,10 +1,24 @@
 window.document.addEventListener("DOMContentLoaded", function(){
+  function capitalizar(texto){
+
+  }
+  const entrada = document.getElementById("input");
+  const resultado = document.getElementById("resultado");
+  function limpar() {
+    entrada.value = "";
+    resultado.value = "";
+  }
   document.getElementById("btnMaiuscula").addEventListener("click", function(){
     let inputText = document.querySelector("#input").value
-    document.getElementById("resultado").innerHTML = inputText.toUpperCase()
+    document.getElementById("resultado").value = inputText.toUpperCase()
   })
   document.getElementById("btnMinuscula").addEventListener("click", function(){
     let inputText = document.querySelector("#input").value
-    document.getElementById("resultado").innerHTML = inputText.toLowerCase()
-  })  
+    document.getElementById("resultado").value = inputText.toLowerCase()
+  })
+  document.getElementById("capitalizar").addEventListener("click", function(){
+      let inputText = entrada.value;
+      resultado.value = capitalizar(inputText);
+  });
+  document.getElementById("clear").addEventListener("click", limpar);  
 })
