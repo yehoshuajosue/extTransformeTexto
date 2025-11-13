@@ -7,7 +7,7 @@
     font-family: "Ubuntu", sans-serif;
     font-size: 12px;
     /* Borda de Desenvolvimento */
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
 }
 
 .container-pai{
@@ -19,16 +19,30 @@
     flex-direction: column;
     display: flex;
     justify-content: center;
+    padding: 0;
+}
+
+.container-title{
+    width: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.title{
+    font-size: 13px;
 }
 
 .input-text{
-    width: 160px;
+    width: 165px;
     padding: 1px 3px;
     outline: none;
 }
 
 .container-button{
-    width: 160px;
+    width: 165px;
     padding: 5px 0;
 
     /* FlexBox */
@@ -37,11 +51,22 @@
 }
 
 .btn{
-    width: 77px;
+    width: 80px;
     padding: 2px;
     border-radius: 3px;
     border: solid 1px #4c4c4d;
     cursor: pointer;
 }
 
-/* Configuração do Resultado */
+textarea{
+    width: 165px;
+    height: 80px;
+}
+
+ footer{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }

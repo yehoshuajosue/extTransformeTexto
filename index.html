@@ -18,17 +18,29 @@
 <body>
     <!-- <h2>Extensão TT</h2> -->
 
-    <div class="container-pai"> 
-        <input class="input-text" type="text" name="text" id="input" placeholder="Digite o texto aqui!" required>
+    <div class="container-pai">
+        <header class="container-title">
+            <img src="./icons/Logp-tT-Vetor-16.png" alt="logo">
+            <p class="title">TRANSFORME textos</p>
+        </header>
+        <input class="input-text" type="text" name="text" id="input" placeholder="Digite o texto aqui" required>
     
     
         <div class="container-button">
-            <button type="submit" class="btn" id="btMaiuscula">MAIÚSCULA</button>
-            <button type="submit" class="btn" id="btMinusculo">minúscula</button>
+            <button type="submit" class="btn" id="btnMaiuscula">MAIÚSCULA</button>
+            <button type="submit" class="btn" id="btnMinuscula">minúscula</button>
         </div>
 
-        <div name="resultado" class="resultado" id="resultado">Resultado:</div>
+
+        <textarea name="resultado" placeholder=" Resultado"></textarea>
+        <footer>
+            <p>Para mais opções, visite</p>
+            <a href="https://github.com/yehoshuajosue/extTransformeTexto">tiagoneves.com.br</a>
+        </footer>
+
     </div>
+
+    <script src="./JS/script.js"></script>
 
 </body>
 </html>
