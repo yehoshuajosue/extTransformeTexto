@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Fontes Google */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+    /* Borda de Desenvolvimento */
+    /* border: solid 1px blue; */
+}
+
+.container-pai{
+    width: 200px;
+    height: 270px;
+
+    /* FlexBox */
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.container-title{
+    width: 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.title{
+    font-size: 13px;
+}
+
+.input-text{
+    width: 165px;
+    padding: 1px 3px;
+    outline: none;
+}
+
+.container-button{
+    /* FlexBox */
+    display: flex;
+    flex-direction: column;
+}
+
+.two-button{
+    display: flex;
+    flex-direction: row;
+    width: 165px;
+    padding: 5px 0 0 0;
+    justify-content: space-between;
+}
+
+.capital,
+.clear{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.btn{
+    height: 20px;
+    width: 80px;
+    padding: 2px;
+    border-radius: 3px;
+    border: solid 1px #4c4c4d;
+    cursor: pointer;
+}
+
+textarea{
+    width: 165px;
+    height: 80px;
+}
+
+ footer{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
