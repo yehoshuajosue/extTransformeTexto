@@ -1,12 +1,8 @@
 window.document.addEventListener("DOMContentLoaded", function(){
   function capitalizar(texto){
-<<<<<<< HEAD
     texto = texto.toLowerCase()
 
     return texto.replace(/(^|[\.!\?]\s+|\n+)([a-záéíóúâêôãõç])/g, (_, antes, letra) => antes + letra.toUpperCase())
-=======
-
->>>>>>> 48db4b8d90e42b17d0ec57301f8c36b1587de1ad
   }
   const entrada = document.getElementById("input");
   const resultado = document.getElementById("resultado");
@@ -26,9 +22,5 @@ window.document.addEventListener("DOMContentLoaded", function(){
       let inputText = entrada.value;
       resultado.value = capitalizar(inputText);
   });
-  document.getElementById("clear").addEventListener("click", limpar);  
-<<<<<<< HEAD
+  document.getElementById("clear").addEventListener("click", limpar);
 })
-=======
-})
->>>>>>> 48db4b8d90e42b17d0ec57301f8c36b1587de1ad
